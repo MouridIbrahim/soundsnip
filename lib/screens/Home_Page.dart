@@ -25,9 +25,9 @@ class _HomepageState extends State<Homepage> {
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(
                     12,
-                  ), // 👈 Adjust this value as you like
+                  ), 
                   borderSide:
-                      BorderSide.none, // Keeps no stroke/color around border
+                      BorderSide.none, 
                 ),
                 hintStyle: TextStyle(color: AppColors.lightText),
 
