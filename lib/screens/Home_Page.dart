@@ -48,7 +48,7 @@ class _HomepageState extends State<Homepage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-                    child: Text('Convert'),
+                    child: Text('Convert', style: TextStyle(fontSize: 12)),
                   ),
                 ),
                 SizedBox(width: 16.0),
@@ -64,7 +64,13 @@ class _HomepageState extends State<Homepage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-                    child: Text('Download'),
+                    child: Text(
+                      'Convert & Download',
+                      style: TextStyle(fontSize: 11),
+                      overflow: TextOverflow
+                          .ellipsis, // Ensures text stays on one line
+                      maxLines: 1,
+                    ),
                   ),
                 ),
               ],
@@ -91,8 +97,11 @@ class _HomepageState extends State<Homepage> {
                     ),
                     width: 48,
                     height: 48,
-                    child: Icon(Icons.music_note,
-                        color: AppColors.textColor, size: 28),
+                    child: Icon(
+                      Icons.music_note,
+                      color: AppColors.textColor,
+                      size: 28,
+                    ),
                   ),
                   title: StyledText('Converted Video ${index + 1}'),
                   subtitle: StyledText('Video Title ${index + 1}'),
