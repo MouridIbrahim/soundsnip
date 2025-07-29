@@ -29,19 +29,19 @@ ThemeData primaryTheme = ThemeData(
 
   //text theme
   textTheme: TextTheme(
-    bodyMedium: GoogleFonts.robotoCondensed(
+    bodyMedium: GoogleFonts.lato(
       color: AppColors.textColor,
       fontSize: 16,
       letterSpacing: 1,
     ),
 
-    headlineMedium: GoogleFonts.robotoCondensed(
+    headlineMedium: GoogleFonts.lato(
       color: AppColors.textColor,
-      fontSize: 17,
+      fontSize: 20,
       fontWeight: FontWeight.bold,
       letterSpacing: 2,
     ),
-    titleMedium: GoogleFonts.robotoCondensed(
+    titleMedium: GoogleFonts.lato(
       color: AppColors.lightText,
       fontSize: 17,
       fontWeight: FontWeight.bold,
